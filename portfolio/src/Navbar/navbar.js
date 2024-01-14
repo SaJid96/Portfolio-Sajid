@@ -37,6 +37,7 @@ const Navbar = () => {
               <li>About</li>
               <li>Projects</li>
               <li>Contacts</li>
+              <li>Form</li>
             </ul>
             <button className="hamburger" onClick={handleToggle}>
           ☰
