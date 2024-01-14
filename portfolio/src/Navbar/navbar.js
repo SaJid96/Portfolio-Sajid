@@ -31,16 +31,16 @@ const Navbar = () => {
             </div>
           </div>
           <div className="col-lg-6 col-xs-4 ham-col">
-          <button className="hamburger" onClick={handleToggle}>
-          ☰
-        </button>
+         
             <ul className={`navbar-links fw-bold  ${isMobile ? 'show' : ''}`}>
               <li>Home</li>
               <li>About</li>
               <li>Projects</li>
               <li>Contacts</li>
             </ul>
-          
+            <button className="hamburger" onClick={handleToggle}>
+          ☰
+        </button>
           </div>
         </div>
       </header>
