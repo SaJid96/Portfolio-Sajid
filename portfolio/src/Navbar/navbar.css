@@ -1,9 +1,11 @@
-header{
-    background-color: red;
-    box-sizing: border-box;
-}
-ul{
+
+.user-details  ul{
     list-style: none;
-    display: flex;
-    justify-content: space-around;
+   
+}
+
+.user-details{
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
 }
