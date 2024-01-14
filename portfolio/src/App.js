@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./Navbar/navbar";
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-     <h1>MD Sajid hussain</h1>
-    </div>
+    <>
+    <Navbar/>
+    </>
   );
 }
 
