@@ -23,3 +23,47 @@
     height: 100%;
     object-fit: cover;
 }
+
+.navbar-links{
+    display: flex;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .ham-col{
+    display: flex;
+    justify-content: end;
+  }
+  @media(max-width:768px) {
+      .navbar-links {
+          display: none;
+          flex-direction: column;
+          position: absolute;
+          left: 0;
+          width: 100%;
+          background-color: pink;
+          z-index: 1;
+         
+      }
+      .navbar-links.show {
+        display: flex;
+      }
+    
+      .hamburger {
+        display: block;
+        z-index: 122;
+        
+      }
+      .small-screen-view{
+        display: flex;
+        justify-content: space-between;
+      }
+
+  }
